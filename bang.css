@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+}
+.container{
+	position: relative;
+	width: 1024px;
+	height:862px;
+	margin: 0 auto;
+	background: #192314;
+}
+.desk{
+	width: 651px;
+	height:732px;
+	background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-mobile.jpg")100%;
+	background-size: 651px auto;
+	float: right;
+	background-repeat: no-repeat;
+}
+.header-box{
+	width: 500px;
+	height: 199px;
+	position: absolute;
+	left: 100px;
+	top: 250px;
+}
+.headtext{
+	margin-bottom: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.midtext{
+    letter-spacing: 4px;
+	font-size: 50px;
+    font-style: normal;
+    display: block;
+    color: white;
+}
+.stext{
+	margin: 10px;
+	font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 0;
+    font-family: "Gotham SSm A","Gotham SSm B"
+    font-style: normal;
+    color: #fff;
+}
+.link{
+	text-decoration: none;
+    background-color: rgba(255,255,255,.1);
+    color: #fff;
+    font-weight: 400;
+        font-size: .5625em;
+    font-weight: 500;
+    letter-spacing: .1111em;
+    line-height: 1.2222em;
+    text-align: center;
+    padding: 12px 35px;
+    min-width: 200px;
+    font-family: "Gotham SSm A","Gotham SSm B";
+}
+.container2{
+	width: 1024px;
+	height: 361px;
+	background:url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/harmonies/1350/img-bg-1350.jpg");
+	margin: 0 auto;
+	background-size: 100% auto;
+	background-position: 0 -50px;
+}
+.product-box{
+    width: 610px;
+    height: 261px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: -48px;
+    position: relative;
+    z-index: 100;
+}
+.product-item{
+
+	float: left;
+	width: 203px;
+	height: 313px;
+	position: relative;
+}
+.product-item img{
+	width: 100%;
+}
+.product-item h4{
+    position: absolute;
+    top:15px;
+    left:20px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 500;
+    line-height: 24px;
+}
