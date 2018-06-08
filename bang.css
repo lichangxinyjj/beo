@@ -1,30 +1,35 @@
-*{
-	margin: 0;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-.container{
-	position: relative;
-	width: 1024px;
-	height:862px;
-	margin: 0 auto;
-	background: #192314;
+
+.container {
+    position: relative;
+    width: 1024px;
+    height: 862px;
+    margin: 0 auto;
+    background: #192314;
 }
-.desk{
-	width: 651px;
-	height:732px;
-	background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-mobile.jpg")100%;
-	background-size: 651px auto;
-	float: right;
-	background-repeat: no-repeat;
+
+.desk {
+    width: 651px;
+    height: 732px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/beosound-shape/green-beosound-shape-mobile.jpg") 100%;
+    background-size: 651px auto;
+    float: right;
+    background-repeat: no-repeat;
 }
-.header-box{
-	width: 500px;
-	height: 199px;
-	position: absolute;
-	left: 100px;
-	top: 250px;
+
+.header-box {
+    width: 500px;
+    height: 199px;
+    position: absolute;
+    left: 100px;
+    top: 250px;
 }
-.headtext{
-	margin-bottom: 18px;
+
+.headtext {
+    margin-bottom: 18px;
     font-size: 11px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -32,70 +37,342 @@
     font-style: normal;
     color: white;
 }
-.midtext{
+
+.midtext {
     letter-spacing: 4px;
-	font-size: 50px;
+    font-size: 50px;
     font-style: normal;
     display: block;
     color: white;
 }
-.stext{
-	margin: 10px;
-	font-size: 13px;
+
+.stext {
+    margin: 10px;
+    font-size: 13px;
     font-weight: 300;
     line-height: 21px;
     margin-top: 0;
-    font-family: "Gotham SSm A","Gotham SSm B"
     font-style: normal;
     color: #fff;
 }
-.link{
-	text-decoration: none;
-    background-color: rgba(255,255,255,.1);
+
+.link {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .1);
     color: #fff;
     font-weight: 400;
-        font-size: .5625em;
+    font-size: .5625em;
     font-weight: 500;
     letter-spacing: .1111em;
     line-height: 1.2222em;
     text-align: center;
     padding: 12px 35px;
     min-width: 200px;
-    font-family: "Gotham SSm A","Gotham SSm B";
+    font-family: "Gotham SSm A", "Gotham SSm B";
 }
-.container2{
-	width: 1024px;
-	height: 361px;
-	background:url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/harmonies/1350/img-bg-1350.jpg");
-	margin: 0 auto;
-	background-size: 100% auto;
-	background-position: 0 -50px;
+
+.container2 {
+    width: 1024px;
+    height: 361px;
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/slider/harmonies/1350/img-bg-1350.jpg");
+    margin: 0 auto;
+    background-size: 100% auto;
+    background-position: 0 -50px;
 }
-.product-box{
-    width: 610px;
+
+.product-box {
+    width: 650px;
     height: 261px;
     margin: 0 auto;
-    padding: 0 15px;
+
     margin-top: -48px;
     position: relative;
     z-index: 100;
 }
-.product-item{
 
-	float: left;
-	width: 203px;
-	height: 313px;
-	position: relative;
+.product-item {
+
+    float: left;
+    width: 203px;
+    height: 20px;
+    position: relative;
 }
-.product-item img{
-	width: 100%;
+
+.product-item img {
+    width: 200px;
 }
-.product-item h4{
+
+.product-item h4 {
     position: absolute;
-    top:15px;
-    left:20px;
-    color:#fff;
-    font-size:18px;
+    top: 15px;
+    left: 20px;
+    color: #fff;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 12px;
+}
+
+.top-menu {
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+
+}
+
+.top-menu .left {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: url("product.png");
+    background-repeat: no-repeat;
+
+}
+
+.center {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    width: 190px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.top-menu .right {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: url("menu.png");
+    background-repeat: no-repeat;
+
+}
+
+.container3 {
+    width: 1024px;
+    height: 862px;
+    margin: 0 auto;
+}
+
+.text-center {
+    margin: 0 auto;
+    font-size: .75em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.text-body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.pricture-list {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pricture {
+    width: 512px;
+    height: 512px;
+    border: 1px solid black;
+}
+
+.pricture:nth-child(1) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/wireless-speaker-systems/beosound-shape-mobile.jpg?mw=450&hash=85C4C38DE0B3061F29D78CD8F72FD37454A80BA6") 100%;
+    background-size: 100% auto;
+}
+
+.pricture:nth-child(2) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/televisions/beovision-eclipse-mobile.jpg?mw=450&hash=DBD0C5F92B1BD679284B702D0B6AC116F3AA7EFB") 100%;
+    background-size: 100% auto;
+}
+
+.pricture:nth-child(3) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/speakers/beolab-50-mobile.jpg?mw=450&hash=8884C771C66F751431233617B6229032793D51A8") 100%;
+    background-size: 100% auto;
+}
+
+.pricture:nth-child(4) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/portable-bluetooth-speakers/beoplay-p6-categories-mobile-2.jpg?mw=450&hash=8C8E0FAF78777CDCBE733347D043C64083EB14EF") 100%;
+    background-size: 100% auto;
+}
+
+.pricture:nth-child(5) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/sound-systems/beosound-core-mobile.jpg?mw=450&hash=3D9049CBD1EDD5B7774213A4E1262929FE159861") 100%;
+    background-size: 100% auto;
+}
+
+.pricture:nth-child(6) {
+
+    background: url("https://www.bang-olufsen.com/~/mediaV3/home/frontpage/categories/headphones/beoplay-h9i-mobile.jpg?mw=450&hash=405EC5A1CF5A655A720998AB12AC75B5D6CDB210") 100%;
+    background-size: 100% auto;
+}
+
+.fontsize {
+    width: 1024px;
+    height: 150px;
+}
+
+.pricture2 {
+    width: 340px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+.story-list{
+    width: 1024px;
+    height: 490px;
+    margin:0 auto;
+    display: flex;
+
+}
+.story{
+    width: 400px;
+    height:300px;
+
+}
+.story img{
+    width:100%;
+    height:100%;
+}
+.story h5{
+    margin: 30px 0 18px 0;
+    font-size: 12px;
+}
+.desc{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.story:nth-child(3){
+    width: 353px;
+}
+.info-box{
+    padding: 0 14px;
+    height: 509px;
+    display:flex;
+    border-top: 1px solid #f2f2f2;
+}
+.info-item{
+    margin:0 auto;
+    padding-top: 80px;
+    width: 400px;
+    height: 100%;
+
+}
+.info-item:nth-child(1){
+    border-right: 1px solid #f2f2f2;
+}
+.icon{
+    width: 60px ;
+    height: 60px;
+    background: #000 ;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.info-item:nth-child(1) .icon{
+    background: url("20180608125118.jpg") no-repeat center center;
+}
+.info-item:nth-child(2) .icon{
+    background: url("20180608125140.jpg") no-repeat center center;
+}
+.info-item input{
+    border:1px solid #ccc;
+    outline: none;
+    margin:12px auto 40px 50px;
+    width: 373px;
+    height: 56px;
+    padding:6px 12px;
+    font-size: 12px;
+    line-height: 17px;
+
+
+}
+.info-item h5{
+    margin-left: 160px;
+    font-weight:500;
+    margin-bottom: 20px;
+    line-height:25px;
+    font-size: 20px;
+   letter-spacing: 2px;
+}
+.info-item h6{
+    width: 290px;
+    margin-left: 60px;
+    line-heigt:20px;
+    font-size:18px;
+    color:#888;
+    font-weight:normal;
+
+}
+.info-item.location-desc{
+    width:290px;
+    margin:18px auto;
+}
+.buttom{
+    width:200px;
+    height: 30px;
+    margin:18px 0 0 180px;
+    backgroud:rgba(0,0,0,0.1);
+    color: #000;
+    font-size: 22px;
+    line-height:41px;
+
+
+}
+.info-item.search{
+    margin-top:116px;
+
+}
+.footer{
+    width: 979px;
+    height: 82px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .left{
+    margin-left: 20px;
+    width: 322px;
+    height: 20px;
+    padding:0 14px;
+    background: url("TIM20180608155045.png");
+    background-repeat: no-repeat;
+}
+.footer .left a{
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+    color:#000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.footer .right{
+    width:601px;
+    height: 42px;
+    padding:0 14px;
+
+}
+.footer .right a {
+    float: right;
+    display: block;
+    font-style: normal;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
 }
